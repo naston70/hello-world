@@ -1,0 +1,51 @@
+Check status of changes to a repo:
+
+$ git status
+
+View changes to files:
+
+$ git diff
+
+Add a files changes to be committed:
+
+$ git add <FILE>
+
+To add all files changes:
+
+$ git add . 
+
+To commit the changes, with a short message:
+
+$ git commit -m 'commit message'
+
+-----------------------------------------------------------------
+
+Add remote connections:
+
+$ git remote add <REMOTE-NAME> <URL>
+
+Set a URL to a remote:
+
+$ git remote set-url <REMOTE-NAME> <URL>
+
+Pull in changes:
+
+$ git pull <REMOTE-NAME> <BRANCH-NAME>
+
+View remote addresses:
+
+$ git remote -v
+
+Push changes:
+
+$ git push <remote-name> <BRANCH>
+
+-----------------------------------------------------------------
+
+Change a remote url: 
+
+$ git remote set-url <REMOTE-NAME> <URL>
+
+View remote connections:
+
+$ git remote -v
